@@ -1,0 +1,312 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e4471f3f-0501-483d-9258-b42d5b5a0388")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 170.18 35.56)
+		(end 205.74 50.8)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "042943ce-0495-447a-a1a9-4285ea1c7063")
+	)
+	(rectangle
+		(start 110.49 36.83)
+		(end 139.7 49.53)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "27669a04-844c-4785-a75a-19d19a949c25")
+	)
+	(text " "
+		(exclude_from_sim no)
+		(at 78.994 88.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c771184-7297-4cf7-a854-8cb83f509ca0")
+	)
+	(text "BMS\n"
+		(exclude_from_sim no)
+		(at 116.586 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac5f76c8-e191-4c99-925c-8da9f27bd250")
+	)
+	(text "BUS CAN\n"
+		(exclude_from_sim no)
+		(at 152.908 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af9e6da5-e663-4928-a901-90c71807460e")
+	)
+	(text "MOTOR Controler\n"
+		(exclude_from_sim no)
+		(at 179.07 34.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e4014a38-0b05-4266-81e2-67f239993022")
+	)
+	(polyline
+		(pts
+			(xy 39.37 48.26) (xy 39.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2386e2ce-4387-477d-91be-82f270a3290c")
+	)
+	(polyline
+		(pts
+			(xy 190.5 52.07) (xy 190.5 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31679973-aac7-4b46-a3c7-9a9a353980ce")
+	)
+	(polyline
+		(pts
+			(xy 125.73 50.8) (xy 125.73 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74320068-345a-4073-bb42-0996faa224c8")
+	)
+	(polyline
+		(pts
+			(xy 260.35 48.26) (xy 260.35 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f01f481-b6a0-4888-a1b1-e7f89ea78da3")
+	)
+	(polyline
+		(pts
+			(xy 39.37 54.61) (xy 260.35 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c979186b-e872-41ed-b105-0742d5f1435f")
+	)
+	(sheet
+		(at 240.03 17.78)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6457c297-bd5b-42f2-82e2-6b686ff95021")
+		(property "Sheetname" "Secondarie Controler"
+			(at 240.03 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Secondarie_Controler.kicad_sch"
+			(at 240.03 43.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Microcontroler_2026_2027"
+				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 16.51)
+		(size 36.83 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a0a4e5ce-7d6e-4ee3-b12e-bd686741488d")
+		(property "Sheetname" "Main Controler"
+			(at 15.24 15.7984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Main_Controler.kicad_sch"
+			(at 15.24 42.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Microcontroler_2026_2027"
+				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 80.01)
+		(size 41.91 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dd363d86-c687-46e8-b8b0-94a9e7aff5f8")
+		(property "Sheetname" "Alimentation"
+			(at 60.96 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Alimentation.kicad_sch"
+			(at 60.96 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Microcontroler_2026_2027"
+				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 80.01)
+		(size 38.1 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e50842b3-4962-4004-bf9c-1b9d69e5263e")
+		(property "Sheetname" "On borad"
+			(at 13.97 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OnBoard.kicad_sch"
+			(at 13.97 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Microcontroler_2026_2027"
+				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
