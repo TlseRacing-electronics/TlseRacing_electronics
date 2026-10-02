@@ -600,7 +600,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 1,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -641,7 +641,7 @@
         "uuid": "e4471f3f-0501-483d-9258-b42d5b5a0388"
       }
     ],
-    "used_designators": "SW1,#PWR1-13,#PWR15,#PWR18-19,#PWR35-37,#PWR39-41,#PWR43-84,#PWR87-89,D1,D3-5,FB2,Q2-3,#FLG1,#FLG5-7,R1,R3,R8-20,J1-4,J6-8,J10,J13,C1-12,C23-47,C52-53,TP5-15,TP19,U1-4,U7-10,U12-13,L2,Y1,BZ1",
+    "used_designators": "SW1,#PWR1-13,#PWR15,#PWR18-19,#PWR35-37,#PWR39-41,#PWR43-92,D1,D3-5,FB2,Q2-3,#FLG1,#FLG5-7,R1,R3,R8-21,J1-4,J6-8,J10,J13,C1-12,C23-55,TP5-15,TP19,U1-4,U7-10,U12-13,AE1-2,L2-5,Y1,BZ1",
     "variants": []
   },
   "sheets": [
