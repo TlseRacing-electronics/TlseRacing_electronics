@@ -41,7 +41,7 @@
         "pads": {
           "drill": 0.8,
           "height": 1.27,
-          "width": 2.54
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Microcontroler_2026_2027.kicad_pro",
+    "filename": "station.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -590,6 +590,18 @@
         },
         {
           "group_by": true,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -616,7 +628,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 1,
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -637,14 +649,6 @@
     "meta": {
       "version": 1
     },
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -652,38 +656,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Microcontroler_2026_2027.kicad_sch",
+        "filename": "station.kicad_sch",
         "name": "Racine",
-        "uuid": "e4471f3f-0501-483d-9258-b42d5b5a0388"
+        "uuid": "ee509acd-5902-4858-afaa-76f81889590b"
       }
     ],
-    "used_designators": "SW1-2,#PWR1-13,#PWR15,#PWR17-19,#PWR21,#PWR23,#PWR35-116,D1,D3-5,FB2,Q2-3,#FLG1,#FLG3,#FLG5-7,R1,R3,R5,R8-23,J1-4,J6-10,J13,C1-12,C23-70,TP5-15,TP19-20,U1-4,U7-16,AE1-2,L2-8,Y1-5,BZ1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
-      "e4471f3f-0501-483d-9258-b42d5b5a0388",
+      "ee509acd-5902-4858-afaa-76f81889590b",
       "Racine"
-    ],
-    [
-      "a0a4e5ce-7d6e-4ee3-b12e-bd686741488d",
-      "Main Controler"
-    ],
-    [
-      "6457c297-bd5b-42f2-82e2-6b686ff95021",
-      "Secondarie Controler"
-    ],
-    [
-      "e50842b3-4962-4004-bf9c-1b9d69e5263e",
-      "On borad"
-    ],
-    [
-      "dd363d86-c687-46e8-b8b0-94a9e7aff5f8",
-      "Alimentation"
-    ],
-    [
-      "a4d6dfbb-27a5-4d03-a39d-1886c727d4f5",
-      "Telemetry station"
     ]
   ],
   "text_variables": {},
