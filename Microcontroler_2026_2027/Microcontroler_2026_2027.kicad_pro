@@ -641,7 +641,7 @@
         "uuid": "e4471f3f-0501-483d-9258-b42d5b5a0388"
       }
     ],
-    "used_designators": "SW1,#PWR1-13,#PWR15,#PWR18-19,#PWR35-37,#PWR39-41,#PWR43-92,D1,D3-5,FB2,Q2-3,#FLG1,#FLG5-7,R1,R3,R8-21,J1-4,J6-8,J10,J13,C1-12,C23-55,TP5-15,TP19,U1-4,U7-10,U12-13,AE1-2,L2-5,Y1,BZ1",
+    "used_designators": "SW1-2,#PWR1-13,#PWR15,#PWR17-19,#PWR21,#PWR23,#PWR35-116,D1,D3-5,FB2,Q2-3,#FLG1,#FLG3,#FLG5-7,R1,R3,R5,R8-23,J1-4,J6-10,J13,C1-12,C23-70,TP5-15,TP19-20,U1-4,U7-16,AE1-2,L2-8,Y1-5,BZ1",
     "variants": []
   },
   "sheets": [
@@ -664,6 +664,10 @@
     [
       "dd363d86-c687-46e8-b8b0-94a9e7aff5f8",
       "Alimentation"
+    ],
+    [
+      "a4d6dfbb-27a5-4d03-a39d-1886c727d4f5",
+      "Telemetry station"
     ]
   ],
   "text_variables": {},

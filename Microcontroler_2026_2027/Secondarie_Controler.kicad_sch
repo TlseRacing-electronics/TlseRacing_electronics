@@ -4036,6 +4036,191 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Oscillator:ASCO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at -7.62 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ASCO"
+				(at 1.27 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm"
+				(at 2.54 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://abracon.com/Oscillators/ASCO.pdf"
+				(at -5.715 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Crystal Clock Oscillator, Abracon ASCO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Crystal Clock Oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Oscillator*Abracon*ASCO*1.6x1.2mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ASCO_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 2.54) (xy -5.08 2.54) (xy -5.08 3.81) (xy -4.445 3.81) (xy -4.445 2.54) (xy -3.81 2.54)
+						(xy -3.81 3.81) (xy -3.175 3.81) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ASCO_1_1"
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "Tri-State"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:SZNUP2105L"
 			(pin_names
 				(hide yes)
@@ -5789,6 +5974,18 @@
 		(uuid "092d244a-ace0-4ea9-8093-6a776dc6346b")
 	)
 	(rectangle
+		(start 214.63 12.7)
+		(end 250.19 43.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3a77c0aa-130b-40c6-83c9-146cc7b37886")
+	)
+	(rectangle
 		(start 12.7 12.7)
 		(end 132.08 139.7)
 		(stroke
@@ -5875,6 +6072,16 @@
 			)
 		)
 		(uuid "73420b92-573a-49cf-ac61-d8cf517d1fc6")
+	)
+	(text "8Mhz Oscillator"
+		(exclude_from_sim no)
+		(at 241.808 41.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eaa96faa-9db3-45c1-aaf1-ef6ffe46112d")
 	)
 	(text "BUZZER"
 		(exclude_from_sim no)
@@ -6115,6 +6322,12 @@
 		(uuid "a5c47cda-941e-41dd-a71a-7f76d5a9d68f")
 	)
 	(junction
+		(at 228.6 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6d41df9-9329-4142-beaa-39f6ffadb2cb")
+	)
+	(junction
 		(at 160.02 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6169,7 +6382,7 @@
 		(uuid "d4eb0109-d7fe-49e9-aa36-5ef6716993b5")
 	)
 	(junction
-		(at 27.94 44.45)
+		(at 20.32 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d74b9228-a32e-4d7a-8e64-b6ecd9df756f")
@@ -6233,10 +6446,6 @@
 	(no_connect
 		(at 36.83 66.04)
 		(uuid "475a5437-8e66-46f4-814e-932c726c1fa9")
-	)
-	(no_connect
-		(at 36.83 43.18)
-		(uuid "577f4a35-56c3-4363-8109-588353f3e7ba")
 	)
 	(no_connect
 		(at 36.83 63.5)
@@ -6600,7 +6809,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 38.1) (xy 36.83 38.1)
+			(xy 26.67 38.1) (xy 36.83 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6900,6 +7109,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 34.29) (xy 228.6 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e44f346-dbf5-42fd-8c4b-6b26e30d22f5")
+	)
+	(wire
+		(pts
 			(xy 185.42 29.21) (xy 185.42 30.48)
 		)
 		(stroke
@@ -7010,6 +7229,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 43.18) (xy 36.83 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6377c772-e648-4d97-8cc5-c257dc0812fa")
+	)
+	(wire
+		(pts
 			(xy 121.92 19.05) (xy 121.92 20.32)
 		)
 		(stroke
@@ -7070,7 +7299,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 44.45) (xy 34.29 44.45)
+			(xy 13.97 44.45) (xy 26.67 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7087,6 +7316,16 @@
 			(type default)
 		)
 		(uuid "73061248-404c-4340-936e-a63779074454")
+	)
+	(wire
+		(pts
+			(xy 228.6 17.78) (xy 228.6 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ab9c9d-91c6-4c42-874d-dd3157092f84")
 	)
 	(wire
 		(pts
@@ -7190,7 +7429,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 44.45) (xy 34.29 38.1)
+			(xy 26.67 44.45) (xy 26.67 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7397,6 +7636,16 @@
 			(type default)
 		)
 		(uuid "a3617185-01f0-47e7-9042-6f2a4cf496a0")
+	)
+	(wire
+		(pts
+			(xy 218.44 17.78) (xy 228.6 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d216c9-9699-4dd9-a8b3-c1241f6774af")
 	)
 	(wire
 		(pts
@@ -7750,7 +7999,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 38.1) (xy 27.94 36.83)
+			(xy 20.32 38.1) (xy 20.32 36.83)
 		)
 		(stroke
 			(width 0)
@@ -7860,6 +8109,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 26.67) (xy 218.44 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8abc76e-0336-4feb-98ce-008ccb9e691b")
+	)
+	(wire
+		(pts
 			(xy 72.39 96.52) (xy 85.09 96.52)
 		)
 		(stroke
@@ -7930,6 +8189,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 26.67) (xy 238.76 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2fa9a9e-a7ee-4fee-ab8d-e1d90d70017f")
+	)
+	(wire
+		(pts
 			(xy 31.75 160.02) (xy 45.72 160.02)
 		)
 		(stroke
@@ -7950,7 +8219,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 43.18) (xy 27.94 44.45)
+			(xy 20.32 43.18) (xy 20.32 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8219,7 +8488,7 @@
 		(uuid "9ca3c78d-ad50-4362-8b69-592176ea4ac1")
 	)
 	(label "NRST"
-		(at 21.59 44.45 0)
+		(at 13.97 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8227,6 +8496,16 @@
 			(justify left bottom)
 		)
 		(uuid "9f813f95-6a49-47ac-9239-69266ff41b87")
+	)
+	(label "OSC_IN"
+		(at 29.21 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a72bebde-5b68-4b80-b0c6-46c5dbf4c80a")
 	)
 	(label "MOSI_SPI"
 		(at 81.28 50.8 180)
@@ -8237,6 +8516,16 @@
 			(justify right bottom)
 		)
 		(uuid "bc1bd4dc-7420-4ed8-99ca-6db253a4add4")
+	)
+	(label "OSC_IN"
+		(at 246.38 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d182fd50-af7c-4846-94aa-31803d786840")
 	)
 	(label "Btn"
 		(at 142.24 114.3 0)
@@ -8451,84 +8740,6 @@
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/6457c297-bd5b-42f2-82e2-6b686ff95021"
 					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 148.59 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "059e3ec9-b34b-4543-9b1d-b19ca130c7fb")
-		(property "Reference" "#PWR060"
-			(at 148.59 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 148.59 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 148.59 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "212010af-fe7e-4b0a-9126-c11cf626eef4")
-		)
-		(instances
-			(project "Microcontroler_2026_2027"
-				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/6457c297-bd5b-42f2-82e2-6b686ff95021"
-					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -9566,85 +9777,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 104.14 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "458e3c17-8481-4380-905f-bb0987a09165")
-		(property "Reference" "#PWR050"
-			(at 104.14 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 104.14 103.886 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 104.14 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5230a2a2-5b7e-45d6-9135-1aef092bd9ad")
-		)
-		(instances
-			(project "Microcontroler_2026_2027"
-				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/6457c297-bd5b-42f2-82e2-6b686ff95021"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
-		(at 27.94 36.83 0)
+		(at 20.32 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9654,7 +9788,7 @@
 		(dnp no)
 		(uuid "4b865dd6-4066-4a2e-9df3-1bdc0e663826")
 		(property "Reference" "#PWR041"
-			(at 27.94 40.64 0)
+			(at 20.32 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9665,7 +9799,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 30.734 35.56 0)
+			(at 23.114 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9675,7 +9809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 36.83 0)
+			(at 20.32 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9686,7 +9820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 36.83 0)
+			(at 20.32 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9697,7 +9831,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 27.94 36.83 0)
+			(at 20.32 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10731,7 +10865,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 27.94 40.64 0)
+		(at 20.32 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10741,7 +10875,7 @@
 		(dnp no)
 		(uuid "71c2f0ea-24c1-4df3-a714-f38b8d21f9f3")
 		(property "Reference" "R20"
-			(at 29.718 39.37 0)
+			(at 22.098 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10752,7 +10886,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 29.718 41.91 0)
+			(at 22.098 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10763,7 +10897,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 27.94 40.64 0)
+			(at 20.32 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10774,7 +10908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 40.64 0)
+			(at 20.32 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10785,7 +10919,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 27.94 40.64 0)
+			(at 20.32 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11044,6 +11178,92 @@
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/6457c297-bd5b-42f2-82e2-6b686ff95021"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Oscillator:ASCO")
+		(at 228.6 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82b2ab78-56d2-40ae-a91f-510d95c75b8e")
+		(property "Reference" "Y4"
+			(at 240.03 20.2498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8Mhz"
+			(at 240.03 22.7898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm"
+			(at 231.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://abracon.com/Oscillators/ASCO.pdf"
+			(at 222.885 23.495 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Crystal Clock Oscillator, Abracon ASCO"
+			(at 228.6 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "2e56919d-9152-4399-9219-a57e6955e168")
+		)
+		(pin "1"
+			(uuid "8317c3c9-ea21-4ca4-97ef-4b259da359a2")
+		)
+		(pin "2"
+			(uuid "8033d08f-c365-42eb-9564-57f26c9324da")
+		)
+		(pin "4"
+			(uuid "e2a7ff6c-feee-443f-9b49-86ac214b659b")
+		)
+		(instances
+			(project "Microcontroler_2026_2027"
+				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/6457c297-bd5b-42f2-82e2-6b686ff95021"
+					(reference "Y4")
 					(unit 1)
 				)
 			)
@@ -12891,6 +13111,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 228.6 17.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8a3c248-0fee-4e41-9c61-55f1eab164bb")
+		(property "Reference" "#PWR0111"
+			(at 228.6 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 228.6 14.224 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 228.6 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e9940e0-2f9b-425e-80fd-7eb652c55f4a")
+		)
+		(instances
+			(project "Microcontroler_2026_2027"
+				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/6457c297-bd5b-42f2-82e2-6b686ff95021"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 147.32 107.95 270)
 		(unit 1)
@@ -13527,6 +13824,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 148.59 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cef20a84-b150-4504-9fe3-9c515465dc4b")
+		(property "Reference" "#PWR021"
+			(at 148.59 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 148.59 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 148.59 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9f86c70-d24b-4a91-ab7f-10db26a30089")
+		)
+		(instances
+			(project "Microcontroler_2026_2027"
+				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/6457c297-bd5b-42f2-82e2-6b686ff95021"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 24.13 27.94 0)
 		(unit 1)
@@ -13598,6 +13972,83 @@
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/6457c297-bd5b-42f2-82e2-6b686ff95021"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 104.14 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d6fc014a-4964-4579-883f-32225f7af31c")
+		(property "Reference" "#PWR017"
+			(at 104.14 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 104.14 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 104.14 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3b6d26a-9e1c-487d-b2fb-96503e3bb292")
+		)
+		(instances
+			(project "Microcontroler_2026_2027"
+				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/6457c297-bd5b-42f2-82e2-6b686ff95021"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -14343,6 +14794,84 @@
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/6457c297-bd5b-42f2-82e2-6b686ff95021"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 35.56 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fefd05ce-0b79-4fd6-b677-161c67e0f5b6")
+		(property "Reference" "#PWR0112"
+			(at 228.6 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d355fd67-4f3c-47f2-9a49-ad2ece40331b")
+		)
+		(instances
+			(project "Microcontroler_2026_2027"
+				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/6457c297-bd5b-42f2-82e2-6b686ff95021"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)

@@ -212,6 +212,52 @@
 		)
 	)
 	(sheet
+		(at 212.09 87.63)
+		(size 49.53 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a4d6dfbb-27a5-4d03-a39d-1886c727d4f5")
+		(property "Sheetname" "Telemetry station"
+			(at 212.09 86.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "station.kicad_sch"
+			(at 212.09 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Microcontroler_2026_2027"
+				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 60.96 80.01)
 		(size 41.91 21.59)
 		(exclude_from_sim no)
