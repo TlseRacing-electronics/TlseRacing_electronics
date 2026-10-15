@@ -220,6 +220,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_Coaxial_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial_Small"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_Small_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_Small_1_1"
+				(arc
+					(start 1.3484 0.0039)
+					(mid 0.327 -1.308)
+					(end -1.1916 -0.6311)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.1916 0.6311)
+					(mid 0.327 1.3081)
+					(end 1.3484 -0.0039)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x04"
 			(pin_names
 				(offset 1.016)
@@ -990,222 +1167,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Antenna_Shield"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "AE"
-				(at -1.905 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Antenna_Shield"
-				(at -1.905 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Antenna with extra pin for shielding"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "antenna"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Antenna_Shield_0_1"
-				(arc
-					(start 0 -2.667)
-					(mid -0.8485 -2.1032)
-					(end -0.508 -1.143)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 -1.143)
-					(mid 0.8046 -2.0885)
-					(end 0 -2.667)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.905) (xy 2.54 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.762 -1.905)
-					(radius 0.1778)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0 0) (xy -1.27 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Antenna_Shield_1_1"
-				(pin input line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8520,7 +8481,7 @@
 		)
 		(uuid "9363672e-a53c-4035-9a20-91339f8e2c8b")
 	)
-	(text "Values are from the section\n15.1.1 (Application Design Schematic)\nof the SX1280 datasheet\nC49, C50, C51 are +- 0.1pF\nC54 is +- 0.05pF and C55 is +- 5%\nL4 is +- 0.1nH and L5 is +- 0.2nH"
+	(text "Values are from the section\n15.1.1 (Application Design Schematic)\nof the SX1280 datasheet\nC21, C23, C27 are +- 0.1pF\nC25 is +- 0.05pF and C28 is +- 5%\nL2 is +- 0.1nH and L3 is +- 0.2nH"
 		(exclude_from_sim no)
 		(at 229.108 116.84 0)
 		(effects
@@ -8553,6 +8514,12 @@
 		(uuid "02e13c65-8a87-43da-92a9-841ae697247b")
 	)
 	(junction
+		(at 195.58 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0533da53-ba4f-4ea7-85a0-a162966e93a1")
+	)
+	(junction
 		(at 63.5 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8583,12 +8550,6 @@
 		(uuid "0a21df19-c911-437e-a7d8-17504ee589ed")
 	)
 	(junction
-		(at 195.58 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fc91b8d-7c66-4b8b-9f3e-b9ac4a789dfa")
-	)
-	(junction
 		(at 66.04 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8598,7 +8559,7 @@
 		(at 210.82 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "148ddd93-f5b8-43df-b4a1-5caf80bfcb14")
+		(uuid "1632d1eb-6ca9-4211-8438-b4f1bc72e802")
 	)
 	(junction
 		(at 64.77 24.13)
@@ -8769,12 +8730,6 @@
 		(uuid "6d6cb402-0a1d-44a6-86fb-71e134f877bf")
 	)
 	(junction
-		(at 210.82 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e684540-6ed4-4a48-b1a4-716d66fb4b7e")
-	)
-	(junction
 		(at 74.93 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8823,6 +8778,12 @@
 		(uuid "95277dd6-8380-4fea-9b9c-fc2dc8fcdb70")
 	)
 	(junction
+		(at 210.82 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9631636d-63fc-45c3-9aa5-7654db8bf0cb")
+	)
+	(junction
 		(at 66.04 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8839,12 +8800,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9be248e7-7946-4374-b4c1-faa4e99d0edd")
-	)
-	(junction
-		(at 214.63 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3c95654-c5f8-4952-a043-cd822d0e65e6")
 	)
 	(junction
 		(at 203.2 74.93)
@@ -8889,6 +8844,12 @@
 		(uuid "bc85201e-cf66-41c0-a500-896410798fb9")
 	)
 	(junction
+		(at 195.58 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcc04624-3037-4d46-a7df-44b56953d534")
+	)
+	(junction
 		(at 176.53 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8905,12 +8866,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca36a1c3-5577-458c-8e1f-dd816b4b01cf")
-	)
-	(junction
-		(at 224.79 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cacc95ad-fad5-4e64-8bd1-ec9773d12478")
 	)
 	(junction
 		(at 68.58 33.02)
@@ -8949,16 +8904,22 @@
 		(uuid "ddaa4d30-f214-443c-91b5-2e547f36cc76")
 	)
 	(junction
+		(at 224.79 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dde6d34c-ddad-40a4-8b98-d3950888f18a")
+	)
+	(junction
+		(at 214.63 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1a19c81-1fc6-4652-a67f-ec6bfb7baa15")
+	)
+	(junction
 		(at 184.15 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e629f603-6ed3-46c2-aa7b-86f34385db7f")
-	)
-	(junction
-		(at 195.58 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8af2a92-7912-4172-9daa-19676c76281f")
 	)
 	(junction
 		(at 60.96 33.02)
@@ -9462,16 +9423,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 101.6) (xy 241.3 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fa58a01-7d3b-4350-8560-a0013c7ee970")
-	)
-	(wire
-		(pts
 			(xy 29.21 118.11) (xy 43.18 118.11)
 		)
 		(stroke
@@ -9479,6 +9430,16 @@
 			(type default)
 		)
 		(uuid "100a9a3d-d784-4d1c-945a-4d2a9257317b")
+	)
+	(wire
+		(pts
+			(xy 248.92 101.6) (xy 246.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1098f7a1-b549-4eba-b630-e42acb912843")
 	)
 	(wire
 		(pts
@@ -9622,16 +9583,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 106.68) (xy 195.58 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "194c9ea3-22fa-4452-9ad2-524cb49a792b")
-	)
-	(wire
-		(pts
 			(xy 85.09 24.13) (xy 95.25 24.13)
 		)
 		(stroke
@@ -9659,26 +9610,6 @@
 			(type default)
 		)
 		(uuid "1e8d060b-7eb4-4ac2-a6c6-8b4b4d4bb7e4")
-	)
-	(wire
-		(pts
-			(xy 222.25 101.6) (xy 224.79 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ff7d590-394c-44ce-91e0-71cbaec21bd8")
-	)
-	(wire
-		(pts
-			(xy 195.58 107.95) (xy 195.58 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2067cce6-a0e9-4f16-a360-40dde9ea823f")
 	)
 	(wire
 		(pts
@@ -9862,16 +9793,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 96.52) (xy 224.79 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32cc6dab-e4b2-4fce-af38-f9ed5f9951e9")
-	)
-	(wire
-		(pts
 			(xy 190.5 160.02) (xy 194.31 160.02)
 		)
 		(stroke
@@ -9899,6 +9820,16 @@
 			(type default)
 		)
 		(uuid "39b67688-5117-46c4-ab2d-3231227310b1")
+	)
+	(wire
+		(pts
+			(xy 214.63 101.6) (xy 217.17 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b13d261-ddc4-49c3-9cad-bee62f6ef18a")
 	)
 	(wire
 		(pts
@@ -9982,16 +9913,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 101.6) (xy 214.63 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "425ccfec-767f-4664-9752-1935b475c005")
-	)
-	(wire
-		(pts
 			(xy 66.04 33.02) (xy 66.04 34.29)
 		)
 		(stroke
@@ -10052,6 +9973,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 101.6) (xy 210.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c241aba-957c-4120-ae04-4e1ef869f517")
+	)
+	(wire
+		(pts
 			(xy 63.5 33.02) (xy 63.5 34.29)
 		)
 		(stroke
@@ -10059,16 +9990,6 @@
 			(type default)
 		)
 		(uuid "4c5374c7-6fba-46b6-969c-3e40e7c34fc1")
-	)
-	(wire
-		(pts
-			(xy 214.63 101.6) (xy 217.17 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d340abe-4aa4-49ee-809d-cd5f9c3b3799")
 	)
 	(wire
 		(pts
@@ -10252,16 +10173,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 106.68) (xy 210.82 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c229444-1863-4bd8-aa1d-05e924be7d41")
-	)
-	(wire
-		(pts
 			(xy 176.53 60.96) (xy 176.53 62.23)
 		)
 		(stroke
@@ -10269,6 +10180,16 @@
 			(type default)
 		)
 		(uuid "5f0cd06e-85a1-4c74-87f5-99f1994cd6ae")
+	)
+	(wire
+		(pts
+			(xy 195.58 106.68) (xy 195.58 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "613fc2a3-48c7-4a20-a06d-47842f6e757f")
 	)
 	(wire
 		(pts
@@ -10302,6 +10223,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 106.68) (xy 210.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65dc09d3-4ebb-479a-a986-143341220959")
+	)
+	(wire
+		(pts
 			(xy 129.54 62.23) (xy 123.19 62.23)
 		)
 		(stroke
@@ -10312,16 +10243,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 107.95) (xy 224.79 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "675819db-0f2a-493d-9ef6-097315198b9a")
-	)
-	(wire
-		(pts
 			(xy 105.41 29.21) (xy 115.57 29.21)
 		)
 		(stroke
@@ -10329,16 +10250,6 @@
 			(type default)
 		)
 		(uuid "67686f00-e639-4e25-aa8c-0bddaaf7c9c7")
-	)
-	(wire
-		(pts
-			(xy 224.79 101.6) (xy 229.87 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68850f0f-f892-444a-b836-d8425e67b633")
 	)
 	(wire
 		(pts
@@ -10359,6 +10270,16 @@
 			(type default)
 		)
 		(uuid "68cf8b77-1813-4059-b172-b179277e4b5f")
+	)
+	(wire
+		(pts
+			(xy 195.58 107.95) (xy 210.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6940daf5-f206-4213-8335-712a18e97101")
 	)
 	(wire
 		(pts
@@ -10452,6 +10373,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 96.52) (xy 224.79 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed3d7b2-5f30-4628-948d-0631208cd6be")
+	)
+	(wire
+		(pts
 			(xy 194.31 33.02) (xy 182.88 33.02)
 		)
 		(stroke
@@ -10469,16 +10400,6 @@
 			(type default)
 		)
 		(uuid "6fc48733-6193-41b4-bb97-122b1e9c881f")
-	)
-	(wire
-		(pts
-			(xy 217.17 96.52) (xy 214.63 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "719f3d11-4a27-4418-adc8-3aeb7e638a88")
 	)
 	(wire
 		(pts
@@ -10582,6 +10503,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 101.6) (xy 241.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79961d1e-9bb9-4916-8635-5f7847a0f033")
+	)
+	(wire
+		(pts
 			(xy 148.59 55.88) (xy 149.86 55.88)
 		)
 		(stroke
@@ -10599,6 +10530,16 @@
 			(type default)
 		)
 		(uuid "7c0afedd-da5c-4d25-92bf-2694d6addd76")
+	)
+	(wire
+		(pts
+			(xy 210.82 107.95) (xy 224.79 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc19dd1-a6d0-413f-99f4-6f97088305e2")
 	)
 	(wire
 		(pts
@@ -10652,16 +10593,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 101.6) (xy 203.2 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8427c101-afa4-4610-94bc-73801ce6c916")
-	)
-	(wire
-		(pts
 			(xy 35.56 153.67) (xy 43.18 153.67)
 		)
 		(stroke
@@ -10702,13 +10633,13 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 107.95) (xy 224.79 107.95)
+			(xy 224.79 107.95) (xy 224.79 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c5a3c64-9098-47a7-a83d-4017fe98de6a")
+		(uuid "8771fa1c-e50a-47f3-b885-1ac440afb748")
 	)
 	(wire
 		(pts
@@ -10799,6 +10730,16 @@
 			(type default)
 		)
 		(uuid "8fee01dd-9986-4bf6-8f45-268175b08d21")
+	)
+	(wire
+		(pts
+			(xy 224.79 101.6) (xy 229.87 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90525e2c-ad7c-41c2-8317-545d61cb4e26")
 	)
 	(wire
 		(pts
@@ -10982,6 +10923,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 107.95) (xy 195.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a330cd61-39e0-4413-8b4a-df667324ce97")
+	)
+	(wire
+		(pts
 			(xy 181.61 157.48) (xy 181.61 156.21)
 		)
 		(stroke
@@ -10989,6 +10940,16 @@
 			(type default)
 		)
 		(uuid "a368a499-2d27-4d87-b47e-e6eebd282c70")
+	)
+	(wire
+		(pts
+			(xy 195.58 101.6) (xy 203.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3781ca7-ed23-4ce9-b247-9f324956f400")
 	)
 	(wire
 		(pts
@@ -11029,16 +10990,6 @@
 			(type default)
 		)
 		(uuid "a72bbeb9-5a35-42a0-a248-e7f3c43203a7")
-	)
-	(wire
-		(pts
-			(xy 243.84 101.6) (xy 243.84 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a82e1c9c-186b-433b-a22d-2790596c001b")
 	)
 	(wire
 		(pts
@@ -11149,26 +11100,6 @@
 			(type default)
 		)
 		(uuid "b173192f-29ac-4b29-bfcf-1bb2ab4371db")
-	)
-	(wire
-		(pts
-			(xy 208.28 101.6) (xy 210.82 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1c4e66c-2afe-4886-a34f-6ded3662314b")
-	)
-	(wire
-		(pts
-			(xy 195.58 107.95) (xy 210.82 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2e4a7bf-f90d-48c7-b70b-67adcc8b561a")
 	)
 	(wire
 		(pts
@@ -11452,6 +11383,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 101.6) (xy 214.63 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d585fc38-651e-42e9-9eb0-ac9229af65d4")
+	)
+	(wire
+		(pts
 			(xy 171.45 55.88) (xy 184.15 55.88)
 		)
 		(stroke
@@ -11499,6 +11440,16 @@
 			(type default)
 		)
 		(uuid "dbab6746-ad26-4539-b4f8-5868e705f41a")
+	)
+	(wire
+		(pts
+			(xy 222.25 101.6) (xy 224.79 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcb42a4f-a8fc-4600-95d5-e79fad3ef66a")
 	)
 	(wire
 		(pts
@@ -11642,6 +11593,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 96.52) (xy 214.63 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e73f00bb-e4f0-4319-9bc0-f2e2fa70a5ea")
+	)
+	(wire
+		(pts
 			(xy 114.3 119.38) (xy 118.11 119.38)
 		)
 		(stroke
@@ -11679,6 +11640,16 @@
 			(type default)
 		)
 		(uuid "ea7c5798-c9ea-4cd2-8578-48add8db5bf4")
+	)
+	(wire
+		(pts
+			(xy 248.92 102.87) (xy 248.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbd2856-74f2-4278-9b52-b047b9229744")
 	)
 	(wire
 		(pts
@@ -11772,13 +11743,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 96.52) (xy 224.79 101.6)
+			(xy 214.63 96.52) (xy 214.63 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f558224c-cca6-4724-8ca0-218a98beb4b8")
+		(uuid "f65e13f9-150d-4a13-b435-f44d1a88202c")
 	)
 	(wire
 		(pts
@@ -11842,16 +11813,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 96.52) (xy 214.63 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fac62da0-1675-4f97-8eb3-fdc8d93c97e3")
-	)
-	(wire
-		(pts
 			(xy 153.67 130.81) (xy 161.29 130.81)
 		)
 		(stroke
@@ -11879,6 +11840,16 @@
 			(type default)
 		)
 		(uuid "fbb0c783-fb28-47f8-9a12-40e08ac6c7b9")
+	)
+	(wire
+		(pts
+			(xy 222.25 96.52) (xy 224.79 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc92da1-4b57-4b13-b06e-b84b90869610")
 	)
 	(wire
 		(pts
@@ -12392,7 +12363,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 232.41 101.6 270)
+		(at 210.82 104.14 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12400,9 +12371,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0247c975-e257-4766-858a-8f4c7acca36a")
-		(property "Reference" "C55"
-			(at 231.14 99.822 90)
+		(uuid "00b7492c-9338-4250-b6b1-1fad140f5a34")
+		(property "Reference" "C23"
+			(at 212.598 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12412,8 +12383,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100pF"
-			(at 239.522 100.076 90)
+		(property "Value" "1.2pF"
+			(at 212.598 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12423,8 +12394,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 232.41 101.6 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 210.82 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12435,7 +12406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 101.6 0)
+			(at 210.82 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12446,7 +12417,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 232.41 101.6 0)
+			(at 210.82 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12457,15 +12428,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b15078f-b587-41a2-aee8-6f47c91af102")
+			(uuid "d4c48ad2-f852-40c4-b69a-cbc14b75b56b")
 		)
 		(pin "2"
-			(uuid "2880731f-45c7-4996-8cab-5c686ec7fac1")
+			(uuid "e2062d92-1d32-4e2e-9d5d-ea5eec05b0b9")
 		)
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C55")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -12482,7 +12453,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "055e890c-3df1-409c-b52c-bc8a69eb153c")
-		(property "Reference" "TP11"
+		(property "Reference" "TP5"
 			(at 208.28 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12544,7 +12515,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "TP11")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -12561,7 +12532,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05d072eb-56e4-40b7-883a-11b48c9beba0")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR034"
 			(at 219.71 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -12621,7 +12592,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR083")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -12639,7 +12610,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05dbac45-11a8-4963-bba5-3917a64bc120")
-		(property "Reference" "C25"
+		(property "Reference" "C16"
 			(at 173.99 57.1562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12703,7 +12674,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C25")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -12721,7 +12692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0603e129-0392-425f-b50b-d7c7b303fa66")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG02"
 			(at 184.15 53.975 0)
 			(hide yes)
 			(show_name no)
@@ -12781,7 +12752,88 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#FLG05")
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 224.79 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "088faa3e-54b5-4fd9-9721-2a759a3766d2")
+		(property "Reference" "C27"
+			(at 226.568 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.2pF"
+			(at 226.568 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 224.79 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 224.79 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab040024-394a-444c-89ed-fd66844b5bda")
+		)
+		(pin "2"
+			(uuid "0d62ac16-839f-48b9-84e1-31be8f6d22e7")
+		)
+		(instances
+			(project "Microcontroler_2026_2027"
+				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -12799,7 +12851,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ad32069-f43f-42a7-8300-d850a1390f94")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 127 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -12859,163 +12911,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 219.71 101.6 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0c52d3f6-32a9-487d-b75d-18f40ece6610")
-		(property "Reference" "L5"
-			(at 219.71 105.156 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.5nH"
-			(at 219.71 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 219.71 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "faf94b85-2f57-4eec-a26b-6f2e0719def0")
-		)
-		(pin "2"
-			(uuid "2aedd601-2a96-4d17-ba20-ec7f95d9a3e3")
-		)
-		(instances
-			(project "Microcontroler_2026_2027"
-				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "L5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 243.84 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0c5b0fab-bb8d-4fbe-85cd-69239de4cea7")
-		(property "Reference" "#PWR092"
-			(at 243.84 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 243.84 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fa4c592a-e70a-4f1b-b109-7aa8f41de609")
-		)
-		(instances
-			(project "Microcontroler_2026_2027"
-				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR092")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -13117,7 +13013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0df60a82-a917-42db-bf5a-9b4bf8a6f7ed")
-		(property "Reference" "U10"
+		(property "Reference" "U5"
 			(at 194.31 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13189,7 +13085,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "U10")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -13652,85 +13548,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
-		(at 205.74 101.6 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "181df713-c23f-48ae-907b-5834f1e73f67")
-		(property "Reference" "L4"
-			(at 205.74 105.156 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3nH"
-			(at 205.74 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 205.74 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "baa01d05-8938-4440-86ac-f138ffc4117e")
-		)
-		(pin "2"
-			(uuid "110f1b69-4f61-4e0c-adfa-550b74b2c16a")
-		)
-		(instances
-			(project "Microcontroler_2026_2027"
-				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 217.17 55.88 270)
 		(mirror x)
@@ -13742,7 +13559,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "189ad6f5-df2a-401d-a0ba-36f822b7c380")
-		(property "Reference" "C33"
+		(property "Reference" "C24"
 			(at 222.25 53.086 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13806,7 +13623,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C33")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -13823,7 +13640,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1db570a5-c8fc-403e-ae4d-3901ad452ac8")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR019"
 			(at 153.67 127 0)
 			(hide yes)
 			(show_name no)
@@ -13883,7 +13700,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR085")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -13900,7 +13717,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1dde00d4-7752-40e4-9737-4cf3803cfc2a")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR038"
 			(at 233.68 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -13960,7 +13777,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR0110")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -13978,7 +13795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e2c350f-0414-4cc7-8618-a981edca348e")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR024"
 			(at 165.1 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -14038,7 +13855,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR080")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -14055,7 +13872,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f14f070-ec7e-4818-b641-f63a261ce36d")
-		(property "Reference" "C47"
+		(property "Reference" "C17"
 			(at 183.388 158.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14119,7 +13936,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C47")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -14137,7 +13954,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23ef130c-8b6f-41ea-a523-6daac82d7a53")
-		(property "Reference" "R13"
+		(property "Reference" "R5"
 			(at 235.712 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14199,7 +14016,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "R13")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -14216,7 +14033,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "291879f0-a463-4eb3-a3f5-38ee205dec55")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR029"
 			(at 194.31 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -14276,7 +14093,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR086")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -14294,7 +14111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2965d8b5-0298-48a2-aaae-3fb87f899e7b")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR026"
 			(at 180.34 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -14354,7 +14171,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR069")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -14372,7 +14189,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d5c813a-ebd0-44af-8433-77d89faaf5f5")
-		(property "Reference" "C29"
+		(property "Reference" "C20"
 			(at 197.358 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14436,7 +14253,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C29")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -14453,7 +14270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f76d0d5-032d-43bb-bfb9-681234fe5161")
-		(property "Reference" "TP15"
+		(property "Reference" "TP4"
 			(at 207.01 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14515,7 +14332,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "TP15")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -14604,6 +14421,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 243.84 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34a96cbb-d469-4552-b9a2-fc2ec26e7698")
+		(property "Reference" "J5"
+			(at 243.3204 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.4Ghz"
+			(at 243.3204 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134_Vertical"
+			(at 243.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "C496549"
+			(at 243.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 243.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "906db9f8-3b10-4f49-9e78-484b3c8203cb")
+		)
+		(pin "1"
+			(uuid "db7ae039-c7bb-4644-83d8-0c6f8170eba5")
+		)
+		(instances
+			(project "Microcontroler_2026_2027"
+				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 186.69 66.04 90)
 		(mirror x)
@@ -14615,7 +14512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35e6a873-b8b8-4003-83d8-2a4e019fe1fb")
-		(property "Reference" "R12"
+		(property "Reference" "R3"
 			(at 186.69 70.612 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14677,7 +14574,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "R12")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -14694,7 +14591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3741b78a-a50f-4cc5-bc6b-26b27bffea8b")
-		(property "Reference" "TP6"
+		(property "Reference" "TP1"
 			(at 120.396 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14756,7 +14653,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "TP6")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -14773,7 +14670,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37f125cb-029e-46be-a647-26a6d7a14c2a")
-		(property "Reference" "TP5"
+		(property "Reference" "TP2"
 			(at 120.65 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14835,7 +14732,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "TP5")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -14853,7 +14750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a9f2d42-311f-498a-95db-cf0d28afabd3")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR037"
 			(at 231.14 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14913,7 +14810,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR058")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -15021,87 +14918,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 224.79 104.14 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3d9cb095-b9b1-4aad-8210-184ab1212c24")
-		(property "Reference" "C51"
-			(at 226.568 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1.2pF"
-			(at 226.568 105.664 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 224.79 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 224.79 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30fac538-26cd-4bde-8f00-a9daf772d6e9")
-		)
-		(pin "2"
-			(uuid "1afb62c5-5eb5-4078-8126-6399468e3108")
-		)
-		(instances
-			(project "Microcontroler_2026_2027"
-				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 195.58 109.22 0)
 		(unit 1)
@@ -15111,8 +14927,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4281e9a6-8a74-43b2-ac62-b159a24000b9")
-		(property "Reference" "#PWR091"
+		(uuid "3ce272f3-ed33-44bd-a6c0-2a27493e7f4a")
+		(property "Reference" "#PWR030"
 			(at 195.58 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -15167,12 +14983,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "a217fc34-7f9c-47ab-8a43-c009c01091da")
+			(uuid "eca0113e-490e-4923-82b3-e3c18034a147")
 		)
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR091")
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 102.87 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4137bcea-8d1a-4637-9530-d69d0c3eee63")
+		(property "Reference" "#PWR041"
+			(at 248.92 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfc60250-c834-4037-b0e3-55f01c5475e5")
+		)
+		(instances
+			(project "Microcontroler_2026_2027"
+				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -15189,7 +15083,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43274a2a-52cd-4eb2-8cdd-378754e8fe53")
-		(property "Reference" "TP10"
+		(property "Reference" "TP3"
 			(at 190.5 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15251,15 +15145,15 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "TP10")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:Antenna_Shield")
-		(at 241.3 96.52 0)
+		(lib_id "Device:L_Small")
+		(at 219.71 101.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15267,32 +15161,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "491788b4-6d26-4e2b-a5a5-4e2158aee78b")
-		(property "Reference" "AE1"
-			(at 245.11 94.6149 0)
+		(uuid "47bd4cc3-7092-4b6d-b9e0-a13f954c5f27")
+		(property "Reference" "L3"
+			(at 219.71 105.156 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "2.4Ghz"
-			(at 245.11 97.1549 0)
+		(property "Value" "2.5nH"
+			(at 219.71 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 241.3 93.98 0)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 219.71 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15303,7 +15194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 93.98 0)
+			(at 219.71 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15313,8 +15204,8 @@
 				)
 			)
 		)
-		(property "Description" "Antenna with extra pin for shielding"
-			(at 241.3 96.52 0)
+		(property "Description" "Inductor, small symbol"
+			(at 219.71 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15325,15 +15216,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "02941819-b631-428b-8111-d1bd6ddeeb90")
+			(uuid "1d59affb-3ac8-400a-b615-80f20736abb4")
 		)
 		(pin "2"
-			(uuid "8f407bf9-0c82-4dc1-99c7-a584e1c3f9ee")
+			(uuid "0dca7143-fd35-4499-aa0f-9cb81ba5c160")
 		)
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "AE1")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -15595,7 +15486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f662ad9-3644-4d1f-8558-b1853b323650")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR042"
 			(at 278.13 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -15655,7 +15546,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR068")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -15673,7 +15564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "551fb403-9ddb-4d0f-baab-856ffbb45dfc")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR031"
 			(at 198.12 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -15733,7 +15624,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR081")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -15751,7 +15642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5536dc1c-97b1-4633-b938-f073eadc5a4b")
-		(property "Reference" "R11"
+		(property "Reference" "R2"
 			(at 153.67 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15813,7 +15704,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "R11")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -15909,7 +15800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c9270fd-6f2d-495d-8506-cc72e8ca17e8")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG03"
 			(at 270.51 56.515 0)
 			(hide yes)
 			(show_name no)
@@ -15969,7 +15860,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#FLG07")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -15986,7 +15877,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cf73dce-c393-4ca0-b105-26e3aa37aa18")
-		(property "Reference" "C45"
+		(property "Reference" "C14"
 			(at 140.208 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16050,7 +15941,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C45")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -16068,7 +15959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e46a13a-229e-4b18-9061-a203b1836952")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -16128,7 +16019,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -16145,7 +16036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f8acc5b-eaf4-49e8-aecf-dd970bfe46cf")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR013"
 			(at 125.73 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -16205,7 +16096,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR01")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -16381,7 +16272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62b67656-eaa6-46f7-ba8b-2b40fa8ed8dc")
-		(property "Reference" "TP14"
+		(property "Reference" "TP6"
 			(at 256.54 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16443,7 +16334,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "TP14")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -16461,7 +16352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64b6de23-39f5-4f6e-8595-47205259ee81")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 140.97 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -16521,7 +16412,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -16619,7 +16510,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66e5e8f6-f210-4a3d-bb76-c6cb9d68f040")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 130.81 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16690,7 +16581,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -16789,7 +16680,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c70564a-1eb3-4c22-ac71-00e6b703e97d")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR011"
 			(at 113.03 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -16849,7 +16740,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR076")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16866,7 +16757,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ceee583-81b8-4c45-8493-9278a945ba7e")
-		(property "Reference" "C48"
+		(property "Reference" "C26"
 			(at 221.488 131.826 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16930,7 +16821,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C48")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -17009,87 +16900,6 @@
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 219.71 96.52 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "740f5171-5aba-43de-8532-3a7012e0dbce")
-		(property "Reference" "C54"
-			(at 217.932 94.996 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.5pF"
-			(at 226.06 94.996 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 219.71 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 219.71 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59883681-f8ea-4154-9d18-e0e3c925e57e")
-		)
-		(pin "2"
-			(uuid "7f9754c8-3596-4c95-85bd-b59293fb1f9f")
-		)
-		(instances
-			(project "Microcontroler_2026_2027"
-				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -17188,7 +16998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76c4e54f-b07f-4234-a25f-c19a6cd99aee")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 158.75 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -17248,7 +17058,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -17266,7 +17076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7756eeb9-8c1b-4f36-9e28-f851a6d214a5")
-		(property "Reference" "J6"
+		(property "Reference" "J2"
 			(at 109.22 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17342,7 +17152,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "J6")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -17359,7 +17169,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c861728-33c4-4574-b095-65acc6d64d1a")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR033"
 			(at 214.63 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -17419,7 +17229,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR078")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -17437,7 +17247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82a568bc-ddc0-4864-9980-033c56a3ef81")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 160.02 50.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17501,88 +17311,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 195.58 104.14 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "838f28f1-c72d-47fa-b317-a9f12ab920eb")
-		(property "Reference" "C49"
-			(at 197.358 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.8pF"
-			(at 197.358 105.664 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 195.58 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 195.58 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e2e38da9-b16f-4919-b21c-7fbb17f2fc81")
-		)
-		(pin "2"
-			(uuid "fa1498f2-cb08-4fc0-a924-08170207dd48")
-		)
-		(instances
-			(project "Microcontroler_2026_2027"
-				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C49")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -17599,7 +17328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83de5dff-5b4f-4fa0-993b-7f6eb3e04aab")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 125.73 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -17659,7 +17388,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -17837,7 +17566,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a45cfcb-532b-4787-be98-d6e0318af369")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR039"
 			(at 233.68 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -17897,7 +17626,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR0103")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -17915,7 +17644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a9bb3e4-8175-4ba9-beb4-4dc84a97a50f")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR01"
 			(at 30.48 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17976,7 +17705,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR011")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -17994,7 +17723,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ee2ad0a-b846-45ea-95d9-d11015f896ec")
-		(property "Reference" "C36"
+		(property "Reference" "C29"
 			(at 239.522 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18058,7 +17787,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C36")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -18075,7 +17804,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90b07567-657c-4713-b2b2-20f79e46f88f")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR010"
 			(at 113.03 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -18135,7 +17864,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR075")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -18230,7 +17959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "974d11af-023e-4ccb-8ed6-c7f4e7321fd2")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR018"
 			(at 140.97 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -18290,7 +18019,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR044")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -18308,7 +18037,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9948c84a-ee4c-44f6-84cc-efa911790ca0")
-		(property "Reference" "C43"
+		(property "Reference" "C22"
 			(at 201.93 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18372,7 +18101,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C43")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -18389,7 +18118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a6b6f9e-f0d9-4148-997f-272d03d49eaf")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 114.3 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -18449,7 +18178,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -18467,7 +18196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a019d95a-d4bd-4955-8c15-fb1eabcaff2a")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR025"
 			(at 176.53 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -18527,7 +18256,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR046")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -18545,7 +18274,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a14808ac-9fad-401c-b64f-e72fe6561576")
-		(property "Reference" "C39"
+		(property "Reference" "C31"
 			(at 259.842 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18609,7 +18338,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C39")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -18715,7 +18444,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a68d92f6-92ac-4331-a1b6-dd5122394706")
-		(property "Reference" "C44"
+		(property "Reference" "C13"
 			(at 127.508 25.146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18779,7 +18508,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C44")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -18797,7 +18526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6952d85-8c28-4987-9466-e803b17df260")
-		(property "Reference" "L2"
+		(property "Reference" "L4"
 			(at 226.06 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18859,7 +18588,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "L2")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -18876,7 +18605,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a782b685-577b-497d-b44d-99e303f296ce")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR036"
 			(at 220.98 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -18936,7 +18665,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR082")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -18954,7 +18683,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7a8f6fb-b28b-4446-a8d8-e4559be9e097")
-		(property "Reference" "C38"
+		(property "Reference" "C30"
 			(at 249.682 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19018,7 +18747,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C38")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -19113,7 +18842,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b01fedf2-144c-4178-b255-569c352715eb")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR028"
 			(at 194.31 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -19173,7 +18902,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR077")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -19506,7 +19235,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1b1783b-73f5-4d42-8298-db193365fb0b")
-		(property "Reference" "C46"
+		(property "Reference" "C15"
 			(at 155.448 115.316 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19570,7 +19299,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C46")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -19587,7 +19316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c416ca6a-6924-4c63-8101-5e5207eee05e")
-		(property "Reference" "L3"
+		(property "Reference" "L1"
 			(at 201.93 136.906 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19649,7 +19378,88 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "L3")
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 195.58 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c483d510-8e12-4524-8e54-50b1f32fb2b2")
+		(property "Reference" "C21"
+			(at 197.358 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.8pF"
+			(at 197.358 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 195.58 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 195.58 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6bd26aa1-fb2b-4a22-8a66-c2b5bb1cd1ef")
+		)
+		(pin "2"
+			(uuid "bed51848-a7ba-4a19-8d72-0b800926bea0")
+		)
+		(instances
+			(project "Microcontroler_2026_2027"
+				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -19667,7 +19477,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c654996c-d26d-4d85-8704-c14a30637114")
-		(property "Reference" "R21"
+		(property "Reference" "R4"
 			(at 210.82 153.416 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19729,7 +19539,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "R21")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -19747,7 +19557,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c773a745-2a92-485e-ae8e-61930d834390")
-		(property "Reference" "R14"
+		(property "Reference" "R6"
 			(at 235.712 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19809,7 +19619,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "R14")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -19827,7 +19637,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd9b29eb-60ce-40f9-b704-89502462730f")
-		(property "Reference" "C27"
+		(property "Reference" "C19"
 			(at 178.562 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19891,7 +19701,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C27")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -19909,7 +19719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf94f96b-29a6-462a-a4c0-92c97a9fff27")
-		(property "Reference" "Y3"
+		(property "Reference" "Y2"
 			(at 245.11 20.2498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19977,7 +19787,88 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "Y3")
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 219.71 96.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1f58d30-afab-4522-a11b-18f2c54771bc")
+		(property "Reference" "C25"
+			(at 217.932 94.996 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.5pF"
+			(at 226.06 94.996 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 219.71 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 219.71 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "247f3f7b-9be8-4caf-ba25-d614a73935ae")
+		)
+		(pin "2"
+			(uuid "d8927cf8-ff02-4275-a4f2-96838805da86")
+		)
+		(instances
+			(project "Microcontroler_2026_2027"
+				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -19995,7 +19886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d31eb332-01c3-4c51-98e4-f116494393b7")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR027"
 			(at 191.77 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -20055,7 +19946,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR051")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -20154,7 +20045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d79d86e7-05e2-4d7b-96c6-1718b50f48d6")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR040"
 			(at 247.65 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -20214,7 +20105,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR062")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -20310,7 +20201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9cecfe3-3c4f-4f65-a4ed-152ce5df137d")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR016"
 			(at 138.43 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -20370,7 +20261,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR071")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -20634,7 +20525,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcd714f6-7b96-446c-9f6d-b79247581c3a")
-		(property "Reference" "FB2"
+		(property "Reference" "FB1"
 			(at 146.05 52.324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20697,7 +20588,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "FB2")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -20714,7 +20605,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df7639aa-3ed5-454b-873d-2c52cf1c858f")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR035"
 			(at 219.71 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -20774,7 +20665,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR090")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -20951,7 +20842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5d17f10-f3f9-48f8-92a9-ca35afe9636c")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR023"
 			(at 160.02 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -21011,7 +20902,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR045")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -21029,7 +20920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5e70ad6-41ef-42c3-ac69-473fddcaf5d0")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR032"
 			(at 203.2 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -21089,7 +20980,88 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR056")
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 232.41 101.6 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7204007-d478-4559-9d51-8ed9eb793dad")
+		(property "Reference" "C28"
+			(at 231.14 99.822 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100pF"
+			(at 239.522 100.076 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 232.41 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 232.41 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f35d6e55-178a-4bf4-aba9-130218c5ab9a")
+		)
+		(pin "2"
+			(uuid "81091491-ec69-45f6-bc73-daad4aa03385")
+		)
+		(instances
+			(project "Microcontroler_2026_2027"
+				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -21107,7 +21079,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f04d7261-344d-4f6d-be3f-171ef2e6f26b")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 166.37 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21175,7 +21147,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -21193,7 +21165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6f9e667-9615-4dea-ab95-7feb3a6e345b")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR022"
 			(at 158.75 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -21253,7 +21225,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "#PWR084")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -21271,7 +21243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f80f2524-0d4f-4404-94d3-bc72cf8cc4e9")
-		(property "Reference" "U8"
+		(property "Reference" "U6"
 			(at 203.2 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21354,7 +21326,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "U8")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -21372,7 +21344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f86526b4-223b-46ca-9398-09744d82fb31")
-		(property "Reference" "C40"
+		(property "Reference" "C32"
 			(at 270.002 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21436,7 +21408,7 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C40")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -21454,7 +21426,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa829318-491c-41f1-8265-c7668b182ddf")
-		(property "Reference" "C42"
+		(property "Reference" "C18"
 			(at 176.53 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21518,7 +21490,86 @@
 		(instances
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C42")
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 205.74 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb079d34-657e-4e42-8b20-4f34945782e1")
+		(property "Reference" "L2"
+			(at 205.74 105.156 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3nH"
+			(at 205.74 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 205.74 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor, small symbol, C395064"
+			(at 205.74 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "431c17aa-88ec-45c9-8765-13d826aef001")
+		)
+		(pin "2"
+			(uuid "99b5a25e-0c48-4805-b7c2-c564da89a839")
+		)
+		(instances
+			(project "Microcontroler_2026_2027"
+				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -21596,87 +21647,6 @@
 			(project "Microcontroler_2026_2027"
 				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 210.82 104.14 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fdbbe612-c82f-42cd-81c8-f9309b40740c")
-		(property "Reference" "C50"
-			(at 212.598 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1.2pF"
-			(at 212.598 105.664 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 210.82 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 210.82 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e92de208-4d76-448e-b648-cb445bca787b")
-		)
-		(pin "2"
-			(uuid "d16dd353-d446-4f68-a385-d20583742359")
-		)
-		(instances
-			(project "Microcontroler_2026_2027"
-				(path "/e4471f3f-0501-483d-9258-b42d5b5a0388/a0a4e5ce-7d6e-4ee3-b12e-bd686741488d"
-					(reference "C50")
 					(unit 1)
 				)
 			)
